@@ -22,10 +22,15 @@ const questionsSlice = createSlice({
     },
     rightAnswer: (state) => {
       state.rightAnswer += 1;
+    },
+    clearAll: (state) => {
+      state.questions = [];
+      state.currentQuestion = 0;
+      state.rightAnswer = 0;
     }
   },
 })
 
-export const { setQuestions, setNumberOfQuestions, increaseCurrentQuestion, rightAnswer } = questionsSlice.actions
+export const { setQuestions, setNumberOfQuestions, increaseCurrentQuestion, rightAnswer, clearAll } = questionsSlice.actions
 
 export default questionsSlice.reducer

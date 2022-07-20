@@ -11,10 +11,12 @@ const playerInfoSlice = createSlice({
     nameUpdate: (state, action) => {
       state.name = action.payload;
     },
-
+    clearName: (state) => {
+      state.name = '';
+    }
   }
 })
 
-export const { nameUpdate } = playerInfoSlice.actions
+export const { nameUpdate, clearName } = playerInfoSlice.actions
 
 export default playerInfoSlice.reducer

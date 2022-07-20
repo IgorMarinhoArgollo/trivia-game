@@ -14,6 +14,9 @@ export default function Form() {
   const onSubmit = async () => {
     const token = await fetchToken();
     const questions = await fetchTrivia(token, numberOfQuestions);
+    if (window.localStorage.getItem('ranking') === null) {
+      window.localStorage.setItem('ranking', '[]')
+    }
     dispatch(setQuestions(questions));
     navigate("/game");
   }

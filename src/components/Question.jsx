@@ -13,6 +13,8 @@ export default function Question({ element }) {
   const currentQuestion = useSelector((state) => state.questions.currentQuestion)
   const numberOfQuestions = useSelector((state) => state.questions.numberOfQuestions)
   const questions = useSelector((state) => state.questions.questions)
+  const playerName = useSelector((state) => state.playerInfo.name)
+  const score = useSelector((state) => state.score.totalScore)
   const dispatch = useDispatch();
 
 
@@ -39,9 +41,9 @@ export default function Question({ element }) {
       if (elem.innerText === element.correct_answer) {
         elem.style.border = 'solid green'
       }
-    document.querySelectorAll('.answers').forEach(elem => {
-      elem.disabled = true;
-    });
+      document.querySelectorAll('.answers').forEach(elem => {
+        elem.disabled = true;
+      });
     })
     dispatch(clearTime())
   }
@@ -60,6 +62,9 @@ export default function Question({ element }) {
       }
     }
     else {
+      let currentRanking = JSON.parse(window.localStorage.getItem('ranking'));
+      currentRanking.push({ 'name': playerName, 'score': score, 'key': Math.random()});
+      window.localStorage.setItem('ranking', JSON.stringify(currentRanking))
       navigate('/feedback')
     }
   }
