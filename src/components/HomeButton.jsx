@@ -5,6 +5,7 @@ import { clearName } from '../slices/playerInfoSlice'
 import { clearAll } from '../slices/questionsSlice';
 import { clearScore } from '../slices/scoreSlice';
 import { resetTimer } from '../slices/timerSlice';
+import '../styles/css/HomeButton.min.css';
 
 export default function Settingsbutton() {
   const dispatch = useDispatch();
@@ -16,11 +17,13 @@ export default function Settingsbutton() {
     dispatch(clearName())
   }
 
-    return (
-      <Link to="/" onClick={() => clear()}>
-        <img src={home} alt="settings icon" />
-      </Link>
-    );
+  return (
+    <Link to="/" onClick={() => clear()}>
+      <div className='homeButton'>
+        <img src={home} alt="settings icon" className='changePageImage' />
+      </div>
+    </Link>
+  );
 }
 
 
