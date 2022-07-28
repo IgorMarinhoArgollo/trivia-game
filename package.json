@@ -21,7 +21,8 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
-    "lint:styles": "npx stylelint '**/*.css'"
+    "lint:styles": "npx stylelint '**/*.css'",
+    "commitizen": "comando do commitizen para gerar mensagem"
 },
   "eslintConfig": {
     "extends": [

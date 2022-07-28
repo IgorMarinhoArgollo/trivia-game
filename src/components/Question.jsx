@@ -35,11 +35,11 @@ export default function Question({ element }) {
       dispatch(rightAnswer())
     }
     document.querySelectorAll('.answers').forEach(elem => {
-      elem.style.border = 'solid red';
+      elem.style.border = 'solid #FF4242';
     })
     document.querySelectorAll('.answers').forEach(elem => {
-      if (elem.innerText === element.correct_answer) {
-        elem.style.border = 'solid green'
+      if (elem.innerText === element.correct_answer.replace(/&#039;/gi, "'").replace(/&quot;/gi, '"')) {
+        elem.style.border = 'solid #4BBE5E'
       }
       document.querySelectorAll('.answers').forEach(elem => {
         elem.disabled = true;
@@ -63,7 +63,7 @@ export default function Question({ element }) {
     }
     else {
       let currentRanking = JSON.parse(window.localStorage.getItem('ranking'));
-      currentRanking.push({ 'name': playerName, 'score': score, 'key': Math.random()});
+      currentRanking.push({ 'name': playerName, 'score': score, 'key': Math.random() });
       window.localStorage.setItem('ranking', JSON.stringify(currentRanking))
       navigate('/feedback')
     }
@@ -71,14 +71,15 @@ export default function Question({ element }) {
   if (element !== undefined) {
     return (
       <div>
-        <p>{element.difficulty}</p>
-        <p>{element.type}</p>
-        <p>{element.category}</p>
-        <p>{element.question}</p>
-        <div>
-          {questions[currentQuestion].shuffled.map((element, index) => <button onClick={endTurn} className="answers" type="button" key={index}>{element}</button>)}
+        <div className="difficultyAndType">
+          <p className="difficulty">{element.difficulty}</p>
+          <p>{element.category}</p>
         </div>
-        <button type="button" onClick={() => next()}>Next</button>
+        <p className="questionText">{element.question.replace(/&#039;/gi, "'").replace(/&quot;/gi, '"')}</p>
+        <div className="answersDiv">
+          {questions[currentQuestion].shuffled.map((element, index) => <button onClick={endTurn} className="answers" type="button" key={index}>{element.replace(/&#039;/gi, "'").replace(/&quot;/gi, '"')}</button>)}
+        </div>
+        <button type="button" onClick={() => next()} className="nextButton">Next</button>
       </div>
     )
   } else {

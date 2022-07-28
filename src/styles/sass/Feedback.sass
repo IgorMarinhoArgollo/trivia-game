@@ -1,0 +1,62 @@
+body
+  color: #ffffff
+  font-weight: 50
+  text-align: center
+  letter-spacing: 2px
+
+.nameOnFeedback
+  color: #38E9BB
+  margin: 40px auto 5px
+  font-size: 48px
+
+.nameOnFeedback::before
+  content:'Player: '
+  color: #ffffff
+
+.scoreOnFeedback
+  color: #38E9BB
+  margin-bottom: 15px
+  margin-top: 25px
+
+.scoreOnFeedback::before
+  content: 'You got '
+  color: #ffffff
+
+.scoreOnFeedback::after
+  content: ' points!'
+
+.rightOfTotal
+  display: flex
+  justify-content: center
+  margin-top: 15px
+
+.rights
+  color: #38E9BB
+
+.rights::before
+  content: "You got "
+  color: #ffffff
+
+.rights::after
+  content: " out of "
+  color: #ffffff
+
+.outOf
+  margin-left: 10px
+  color: #38E9BB
+
+.outOf::after
+  content: '.'
+  color: #ffffff
+
+.rankingDiv
+  display: flex
+  justify-content: center
+  margin-top: 15px
+
+@media screen and (max-width: 400px) 
+  .nameOnFeedback
+    font-size: 40px
+
+  .scoreOnFeedback
+    font-size: 25px

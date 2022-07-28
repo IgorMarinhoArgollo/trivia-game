@@ -24,7 +24,7 @@ export default function Timer() {
 
   return (
     <div>
-      <p id="remainingTime">Remaining time:</p><p id="time">{time}</p>
+      <p id="time">{time}</p>
     </div>
   );
 }

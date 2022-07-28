@@ -1,4 +1,5 @@
 import HomeButton from '../components/HomeButton';
+import '../styles/css/Ranking.min.css';
 
 
 export default function Ranking() {
@@ -12,10 +13,10 @@ export default function Ranking() {
 
   return (
     <div>
-      <h2>Ranking</h2>
-      <ul>
-        {array.map((e) => <li key={e.key} ><p>{e.name}</p><p>{e.score}</p></li>)}
-      </ul>
+      <h2 className='rankingTitle'>Ranking</h2>
+      <ol>
+        {array.map((e) => <li key={e.key}><p>{e.name}</p><p className='scoreResult'>{e.score}</p></li>)}
+      </ol>
       <HomeButton />
     </div>
   );
