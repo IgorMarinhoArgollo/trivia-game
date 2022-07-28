@@ -1,0 +1,55 @@
+*
+  margin: 0
+  pagdding: 0
+  box-sizing: border-box
+
+body
+ background-image: url(../../images/background.svg)
+
+.loginPage
+  width: 100%
+  text-align: center
+
+.logoImage
+  width: 150px
+  height: 290px
+  margin: 0 auto
+  
+.triviaTitle
+  color: #38E9BB
+  font-family: 'Russo One', sans-serif
+  font-size: 45px
+  font-weight: 100
+  margin-bottom: 25px
+
+.triviaTitle::before
+  content: 'This is'
+  display: block
+  font-size: 36px
+
+.loginText
+  color: #FFFFFF
+  font-size: 18px
+  font-family: 'Russo One', sans-serif
+
+.form
+  padding-top: 25px
+
+.loginButtons
+  display: flex
+  justify-content: center
+
+@media screen and (max-width: 400px) 
+  .triviaTitle
+    font-size: 30px
+
+  .triviaTitle::before
+    font-size: 25px
+
+  .loginText
+    font-size: 15px
+
+  .logoImage
+    height: 150px
+    margin-top: 35px
+    margin-bottom: 35px

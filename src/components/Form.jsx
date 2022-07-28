@@ -3,6 +3,8 @@ import { useSelector, useDispatch } from 'react-redux'
 import { nameUpdate } from '../slices/playerInfoSlice';
 import { setQuestions } from '../slices/questionsSlice';
 import { useNavigate } from 'react-router-dom';
+import Start from '../images/start.svg';
+import '../styles/css/Form.min.css';
 
 
 export default function Form() {
@@ -28,18 +30,18 @@ export default function Form() {
     return (
       <form>
         <input
-          id="name"
           type="text"
           onChange={(event) => dispatch(nameUpdate(event.target.value))}
-          placeholder="name"
+          placeholder="Place Your Name"
         />
 
-         <button
+        <button
+          className='startButton'
           type="button"
           disabled={verifyLogin(name)}
           onClick={() => onSubmit()}
         >
-          START
+          <img src={Start} alt="Start Arrow" className='startArrow' />
         </button>
       </form>
     );
