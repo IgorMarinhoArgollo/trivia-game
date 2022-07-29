@@ -18,7 +18,10 @@
   <a href="https://educational-trivia-game.netlify.app/" target="_blank">Trivia Game</a>
   
   ## Screenshot
-  ![ScreenShot](./public/src/screenshots/)
+  ![ScreenShot](./src/screenshots/login)
+  ![ScreenShot](./src/screenshots/settings)
+  ![ScreenShot](./src/screenshots/game)
+  ![ScreenShot](./src/screenshots/ranking)
   
   ## Tecnologias usadas
   * React
@@ -75,7 +78,10 @@ This was a project developed in the Frontend module in the Full Stack Web Develo
   <a href="https://educational-trivia-game.netlify.app/" target="_blank">Trivia Game</a>
   
 ## Screenshot
-![ScreenShot](./public/src/screenshots/)
+![ScreenShot](./src/screenshots/login)
+![ScreenShot](./src/screenshots/settings)
+![ScreenShot](./src/screenshots/game)
+![ScreenShot](./src/screenshots/ranking)
 
 ## Used Technologies
   * React
