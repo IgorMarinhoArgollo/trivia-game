@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Trivia Game Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<details>
+  <summary><h2>:brazil: Português</h2></summary>
+  Esse foi um projeto desenvolvido no módulo de Frontend no curso de Desenvolvimento Web Full Stack da Trybe. <br>
+  O desenvolvimento se deu como uma atualização de um projeto elaborado em parceria com os amigos: <a href="https://github.com/onoue9">Filipe Onoue</a>, <a href="https://github.com/JunioASilva">Junio Álves</a>, <a href="https://github.com/brunophilippi">Bruno Philippi</a> e <a href="https://github.com/lucas-morais">Lucas Toledo</a>, utilizando Metodologias Ágeis(SCRUM) com o uso de Kanban(pelo Trello).<br>
+   O projeto original tinha como foco o uso da transferência de informação e gerenciamento de estado com o Redux, contudo, poucos dias após o desenvolvimento desse projeto foi lançado o Redux Toolkit, me inspirando a refazer o mesmo projeto com o Redux Toolkit. Esse projeto foi elaborado com a técnica Mobile First e posteriormente reajustado para telas maiores.<br><br>
+   O design desse projeto foi inspirado em um projeto de design do <a href="https://www.figma.com/community/file/1124158145014892602">Jeziel Junior</a>, disponível no <a href="https://www.figma.com/community/file/1124158145014892602">Figma</a> e desenvolvido com a ferramente SASS.<br>
+  
+  
+  ## Objetivos
+  * Usar Redux ToolKit para gerenciar e transferir estados e informações entre páginas e componentes;
+  * Desenvolver primariamente para telas pequenas fazendo a estilização utilizando o SASS;
+  * Funcionar como um app do tipo game de perguntas e respostas com pontuação e ranking local;
+  * Consumir API do openDB para obtenção de token de acesso e uso do token para acesso ao conteúdo.
 
-## Available Scripts
+  ## Live Link
+  <a href="https://educational-trivia-game.netlify.app/" target="_blank">Trivia Game</a>
+  
+  ## Screenshot
+  ![ScreenShot](./public/src/screenshots/)
+  
+  ## Tecnologias usadas
+  * React
+  * React Router
+  * Redux Toolkit
+  * React Components 
+  * HTML
+  * SASS
+  * Javacript
+  
+  ## Como usar
+  Acesse o site, navegue na página de configurações e configure a quantidade de perguntas que haverão no turmo. volte a página principal, preencha o nome do usuário e clique para iniciar o jogo. Ao final o usuário poderá acessar e ver o ranking local.<br>
+  *Por padrão, o número de questões do jogo é de 5 questões.
+      
+  ## Rodar Localmente
+  ### Requisitos:
+   * Node v16
+   * Google Chrome
+    
+  ### Clonar no seu computador (via SSH)
+  No terminal:
+  
+    git clone git@github.com:IgorMarinhoArgollo/trivia-game.git
+    npm install
+  
 
-In the project directory, you can run:
+  ### Iniciando o projeto localmente
+  No diretório em que o repositório foi clonado, cole o seguinte comando no terminal para iniciar a aplicação localmente:
+   
+      npm start
+   
+  ## Informações de Desenvolvimento (Projeto Original)
+  Commits de Desenvolvimento: 34; <br>
+  Tempo Gasto: 3 dias;
+</details>
 
-### `npm start`
+##  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This was a project developed in the Frontend module in the Full Stack Web Development course at Trybe. <br>
+  The development took place as an update of a project developed in partnership with friends: <a href="https://github.com/onoue9">Filipe Onoue</a>, <a href="https://github .com/JunioASilva">Junio Álves</a>, <a href="https://github.com/brunophilippi">Bruno Philippi</a> and <a href="https://github.com/lucas -morals">Lucas Toledo</a>, using Agile Methodologies (SCRUM) with the use of Kanban (by Trello).<br>
+   The original project was focused on the use of information transfer and state management with Redux, however, a few days after the development of this project, I've learned Redux Toolkit, so inspiring me to redo the same project with Redux Toolkit. This project was developed using the Mobile First technique and later readjusted for larger screens.<br><br>
+   The design of this project was inspired by <a href="https://www.figma.com/community/file/1124158145014892602">Jeziel Junior</a>, available at <a href="https: //www.figma.com/community/file/1124158145014892602">Figma</a> and developed with the SASS tool.<br>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## My Goals
+  * Use Redux ToolKit to manage and transfer states and information between pages and components;
+  * Develop primarily for small screens doing the styling using SASS;
+  * Function as a trivia game type app with local score and ranking;
+  * Consume openDB API to get access token and use token on another endpoint to access content.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Link
+  <a href="https://educational-trivia-game.netlify.app/" target="_blank">Trivia Game</a>
+  
+## Screenshot
+![ScreenShot](./public/src/screenshots/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Used Technologies
+  * React
+  * React Router
+  * Redux Toolkit
+  * React Components 
+  * HTML
+  * SASS
+  * Javacript
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to use it
+  Access the website, navigate to the settings page and configure the number of questions that will be in the quiz. Go back to the main page, fill in the username and click to start the game. At the end the user will be able to access the local ranking.<br>
+  *By default, the number of questions in the game is 5 questions.
+        
+## Run Locally
+  ### Requirements:
+   * Node v16
+   * Google Chrome
+    
+  ### Cloning into your computer (via SSH)
+  On terminal:
 
-### `npm run eject`
+      git clone git@github.com:IgorMarinhoArgollo/trivia-game.git
+      npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ### Starting project locally
+  On the directory that you have cloned the repository, paste the command on terminal to start the application:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+      npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    
+## Development Information (Original Project)
+  Development Commits: 34; <br>
+  Time Spent: 3 days; <br> 
