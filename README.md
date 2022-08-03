@@ -73,6 +73,14 @@
   3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`;
   4. Envie as suas alterações: `git push origin my-feature`;
   5. Abra o seu pull-request na página do GitHub.<br><br>
+  
+  
+##  Autor
+<a href="https://www.linkedin.com/in/igormarinhoargollo/">
+ <img style="border-radius:300px;" src="https://avatars.githubusercontent.com/u/85767736?s=96&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Igor Marinho Argollo</b></sub></a> <a href="https://www.linkedin.com/in/igormarinhoargollo/"></a>
+ <br><br>
 
   ## Licença
   Esse projeto está sob a licença:
@@ -145,6 +153,14 @@ This was a project developed in the Frontend module in the Full Stack Web Develo
   4. Send your changes: `git push origin my-feature`;
   5. Open your pull-request on GitHub.<br><br>
   
+  
+##  Author
+<a href="https://www.linkedin.com/in/igormarinhoargollo/">
+ <img style="border-radius:300px;" src="https://avatars.githubusercontent.com/u/85767736?s=96&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Igor Marinho Argollo</b></sub></a> <a href="https://www.linkedin.com/in/igormarinhoargollo/"></a>
+ <br><br>
+ 
 ## License
   This project is under license:
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"><br><br>
