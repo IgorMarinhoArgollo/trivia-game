@@ -75,12 +75,18 @@
   5. Abra o seu pull-request na página do GitHub.<br><br>
   
   
-##  Autor
-<a href="https://www.linkedin.com/in/igormarinhoargollo/">
- <img style="border-radius:300px;" src="https://avatars.githubusercontent.com/u/85767736?s=96&v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Igor Marinho Argollo</b></sub></a> <a href="https://www.linkedin.com/in/igormarinhoargollo/"></a>
- <br><br>
+##  Autors
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/igormarinhoargollo/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85767736?s=96&v=4" width="100px;" alt=""/><br /><sub><b>Igor Marinho</b></sub></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/filipeonoue/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/79458515?v=4" width="100px;" alt=""/><br /><sub><b>Filipe Onoue</b></sub></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/junio-alves-da-silva-b795a2217/"><img style="border-radius: 50%;" src="" width="100px;" alt="Junio Alves"/><br /><sub><b>Junio Alves</b></sub></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/bruno-philippi/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/83843526?v=4" width="100px;" alt=""/><br /><sub><b>Bruno Philippi</b></sub></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/lucas-m-toledo/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/10052185?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Toledo</b></sub></a></td>
+  </tr>
+</table>
+
+<br><br>
 
   ## Licença
   Esse projeto está sob a licença:
@@ -155,10 +161,15 @@ This was a project developed in the Frontend module in the Full Stack Web Develo
   
   
 ##  Author
-<a href="https://www.linkedin.com/in/igormarinhoargollo/">
- <img style="border-radius:300px;" src="https://avatars.githubusercontent.com/u/85767736?s=96&v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Igor Marinho Argollo</b></sub></a> <a href="https://www.linkedin.com/in/igormarinhoargollo/"></a>
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/igormarinhoargollo/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85767736?s=96&v=4" width="100px;" alt=""/><br /><sub><b>Igor Marinho</b></sub></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/filipeonoue/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/79458515?v=4" width="100px;" alt=""/><br /><sub><b>Filipe Onoue</b></sub></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/junio-alves-da-silva-b795a2217/"><img style="border-radius: 50%;" src="" width="100px;" alt="Junio Alves"/><br /><sub><b>Junio Alves</b></sub></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/bruno-philippi/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/83843526?v=4" width="100px;" alt=""/><br /><sub><b>Bruno Philippi</b></sub></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/lucas-m-toledo/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/10052185?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Toledo</b></sub></a></td>
+  </tr>
+</table>
  <br><br>
  
 ## License
