@@ -63,9 +63,6 @@
       npm start
 
 <br><br>
-  ## Informações de Desenvolvimento (Projeto Original)
-  Commits de Desenvolvimento: 34; <br>
-  Tempo Gasto: 3 dias;<br><br>
 
   ## Como contribuir no projeto
   1. Faça um **fork** do projeto;
@@ -148,9 +145,6 @@ This was a project developed in the Frontend module in the Full Stack Web Develo
       npm start
 
 <br><br>
-## Development Information (Original Project)
-  Development Commits: 34; <br>
-  Time Spent: 3 days; <br><br>
 
 ## How to contribute on the project
   1. Make a **fork** of the project;
